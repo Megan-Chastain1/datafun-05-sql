@@ -1,7 +1,6 @@
 """
 Logger Setup Script
 File: utils_logger.py
-USE AS IS - YOU DO NOT NEED TO UNDERSTAND OR MODIFY THIS FILE
 
 This script provides logging functions for the project. 
 Logging is an essential way to track events and issues during execution. 
@@ -9,6 +8,9 @@ Logging is an essential way to track events and issues during execution.
 Features:
 - Logs information, warnings, and errors to a designated log file.
 - Ensures the log directory exists.
+
+THIS LOGGER SHOULD WORK WITHOUT NEEDING MODIFICATION.
+Just put a copy in your root project folder and import in your scripts as shown in the examples.
 """
 
 # Imports from Python Standard Library
