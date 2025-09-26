@@ -14,7 +14,8 @@ CREATE TABLE authors (
     author_id TEXT PRIMARY KEY,
     first_name TEXT,
     last_name TEXT,
-    year_born INTEGER
+    birth_year INTEGER,
+    nationality TEXT
 );
 
 -- Create the books table
@@ -25,6 +26,7 @@ CREATE TABLE authors (
 CREATE TABLE books (
     book_id TEXT PRIMARY KEY,
     title TEXT,
+    genre,
     year_published INTEGER,
     author_id TEXT,
     FOREIGN KEY (author_id) REFERENCES authors(author_id)
