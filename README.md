@@ -195,5 +195,5 @@ GROUP BY
 ORDER BY 
     book_count DESC;
 
-    <img width="1920" height="1030" alt="image" src="https://github.com/user-attachments/assets/e668fa22-2fee-44b9-8ec2-37260255fdf2" />
+<img width="1920" height="1030" alt="image" src="https://github.com/user-attachments/assets/bfb8efaa-114b-44d6-926d-e55c5c25e41d" />
 
