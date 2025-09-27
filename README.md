@@ -169,6 +169,9 @@ INSERT INTO books (book_id, title, genre, publication_year, author_id) VALUES
 ('BOOK_003', '1984', 'Dystopian', 1949, 'AUTHOR_002'),
 ('BOOK_004', 'Animal Farm', 'Political Satire', 1945, 'AUTHOR_002'),
 ('BOOK_005', 'To Kill a Mockingbird', 'Fiction', 1960, 'AUTHOR_003');
+<img width="1920" height="1030" alt="image" src="https://github.com/user-attachments/assets/01ed34c6-958c-43d3-ba02-83061b84104d" />
+
+
 ## 8\. SQL: Drop Tables (01_drop_tables.sql)
 This script ensures a clean slate by deleting existing tables. The child table (books) must be dropped before the parent table (authors) to satisfy foreign key constraints.
 -- Drop the books table if it exists
@@ -191,3 +194,6 @@ GROUP BY
     a.name 
 ORDER BY 
     book_count DESC;
+
+    <img width="1920" height="1030" alt="image" src="https://github.com/user-attachments/assets/e668fa22-2fee-44b9-8ec2-37260255fdf2" />
+
