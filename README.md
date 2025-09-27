@@ -153,6 +153,7 @@ CREATE TABLE books (
     FOREIGN KEY (author_id) 
         REFERENCES authors (author_id) -- Defines the relationship with authors
 );
+![alt text](image-1.png)
 ## 7\. SQL: Insert Values (03_insert_records.sql)
 This script populates the tables. The authors (parent) records must be inserted before the books (child) records. Note the use of '' to escape the single quote in "Sorcerer's Stone".
 -- Insert records into the authors table first (Parent)
@@ -169,6 +170,8 @@ INSERT INTO books (book_id, title, genre, publication_year, author_id) VALUES
 ('BOOK_003', '1984', 'Dystopian', 1949, 'AUTHOR_002'),
 ('BOOK_004', 'Animal Farm', 'Political Satire', 1945, 'AUTHOR_002'),
 ('BOOK_005', 'To Kill a Mockingbird', 'Fiction', 1960, 'AUTHOR_003');
+
+
 ## 8\. SQL: Drop Tables (01_drop_tables.sql)
 This script ensures a clean slate by deleting existing tables. The child table (books) must be dropped before the parent table (authors) to satisfy foreign key constraints.
 -- Drop the books table if it exists
@@ -191,3 +194,4 @@ GROUP BY
     a.name 
 ORDER BY 
     book_count DESC;
+![alt text](image.png)
