@@ -4,3 +4,15 @@
 2025-09-24 20:50:46.273 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Repos\datafun-05-sql\sql_create\01_drop_tables.sql: [Errno 2] No such file or directory: 'C:\\Repos\\datafun-05-sql\\sql_create\\01_drop_tables.sql'
 2025-09-24 20:50:46.274 | ERROR    | __main__:main:62 - Error during database setup: [Errno 2] No such file or directory: 'C:\\Repos\\datafun-05-sql\\sql_create\\01_drop_tables.sql'
 2025-09-24 20:50:46.276 | INFO     | __main__:main:65 - Database connection closed.
+2025-09-26 20:07:15.636 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-26 20:07:15.637 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-09-26 20:07:15.639 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\db.sqlite
+2025-09-26 20:07:15.650 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Repos\datafun-05-sql\sql_features\new_column_pub_age.sql: duplicate column name: author_age_at_publication
+2025-09-26 20:07:15.651 | ERROR    | __main__:main:60 - Error during feature queries execution: duplicate column name: author_age_at_publication
+2025-09-26 20:07:15.652 | INFO     | __main__:main:63 - Database connection closed.
+2025-09-26 20:21:19.777 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-26 20:21:19.778 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-09-26 20:21:19.779 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\db.sqlite
+2025-09-26 20:21:19.792 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\new_column_pub_age.sql
+2025-09-26 20:21:19.793 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
+2025-09-26 20:21:19.794 | INFO     | __main__:main:63 - Database connection closed.
